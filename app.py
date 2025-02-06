@@ -7,7 +7,7 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 
 # 📌 Step 2: Load Data
-file_path = "/content/drive/My Drive/Sales_Dec24_2.csv"
+file_path = "Sales_Dec24_2.csv"  # Ensure the file is in the root directory of your repository
 data = pd.read_csv(file_path)
 
 # 📌 Step 3: Clean and Standardise Column Names
